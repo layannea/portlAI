@@ -1,7 +1,9 @@
+import AppShell from "@/src/components/AppShell";
+
 export default function DashboardPage() {
   return (
-    <main>
+    <AppShell>
       <p>Portl Demo</p>
-    </main>
+    </AppShell>
   );
 }
