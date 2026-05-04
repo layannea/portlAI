@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://www.sec.gov/files/company_tickers_mf.json",
+  "retrievedAt": "2026-05-04T03:18:23.800Z",
+  "ticker": "TRBCX",
+  "expectedName": "T. Rowe Price Blue Chip Growth Fund",
+  "secEntry": {
+    "cik": 902259,
+    "seriesId": "S000002069",
+    "classId": "C000005424",
+    "symbol": "TRBCX"
+  }
+}

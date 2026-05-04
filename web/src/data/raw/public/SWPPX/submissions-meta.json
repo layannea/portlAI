@@ -1,0 +1,22 @@
+{
+  "sourceUrl": "https://data.sec.gov/submissions/CIK0000904333.json",
+  "retrievedAt": "2026-05-04T03:18:34.573Z",
+  "cik": "0000904333",
+  "registrantName": "SCHWAB CAPITAL TRUST",
+  "recentFilingsScanned": 1001,
+  "archivedFilesNotScanned": [
+    {
+      "name": "CIK0000904333-submissions-001.json",
+      "filingCount": 2000,
+      "filingFrom": "2017-02-14",
+      "filingTo": "2023-07-26"
+    },
+    {
+      "name": "CIK0000904333-submissions-002.json",
+      "filingCount": 1586,
+      "filingFrom": "1995-06-23",
+      "filingTo": "2017-02-12"
+    }
+  ],
+  "note": "Only 'recent' filings are included. Older filings are linked in archivedFilesNotScanned."
+}

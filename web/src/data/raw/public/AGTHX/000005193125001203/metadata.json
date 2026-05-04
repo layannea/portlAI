@@ -1,0 +1,13 @@
+{
+  "accessionNumber": "0000051931-25-001203",
+  "formType": "497K",
+  "filingDate": "2025-10-31",
+  "primaryDocument": "gfa497k.htm",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001203/gfa497k.htm",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001203/0000051931-25-001203-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001203/gfa497k.htm",
+  "downloadedBytes": 162380,
+  "truncated": false,
+  "localPath": "src/data/raw/public/AGTHX/000005193125001203/gfa497k.htm",
+  "warnings": []
+}

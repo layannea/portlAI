@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://www.sec.gov/files/company_tickers_mf.json",
+  "retrievedAt": "2026-05-04T03:18:41.211Z",
+  "ticker": "VSMAX",
+  "expectedName": "Vanguard Small-Cap Index Fund Admiral Shares",
+  "secEntry": {
+    "cik": 36405,
+    "seriesId": "S000002845",
+    "classId": "C000007796",
+    "symbol": "VSMAX"
+  }
+}

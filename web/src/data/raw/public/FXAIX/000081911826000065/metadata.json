@@ -1,0 +1,15 @@
+{
+  "accessionNumber": "0000819118-26-000065",
+  "formType": "N-CSR",
+  "filingDate": "2026-04-22",
+  "primaryDocument": "filing11607.htm",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/0000819118-26-000065-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm",
+  "downloadedBytes": 2097152,
+  "truncated": true,
+  "localPath": "src/data/raw/public/FXAIX/000081911826000065/filing11607.htm",
+  "warnings": [
+    "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm"
+  ]
+}

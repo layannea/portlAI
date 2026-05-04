@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://www.sec.gov/files/company_tickers_mf.json",
+  "retrievedAt": "2026-05-04T03:18:05.269Z",
+  "ticker": "FXAIX",
+  "expectedName": "Fidelity 500 Index Fund",
+  "secEntry": {
+    "cik": 819118,
+    "seriesId": "S000006027",
+    "classId": "C000100045",
+    "symbol": "FXAIX"
+  }
+}

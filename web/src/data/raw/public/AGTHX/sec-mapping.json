@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://www.sec.gov/files/company_tickers_mf.json",
+  "retrievedAt": "2026-05-04T03:18:28.966Z",
+  "ticker": "AGTHX",
+  "expectedName": "American Funds Growth Fund of America Class A",
+  "secEntry": {
+    "cik": 44201,
+    "seriesId": "S000009228",
+    "classId": "C000025064",
+    "symbol": "AGTHX"
+  }
+}

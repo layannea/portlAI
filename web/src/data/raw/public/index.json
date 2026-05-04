@@ -1,0 +1,1310 @@
+{
+  "generatedAt": "2026-05-04T03:18:49.834Z",
+  "userAgent": "Portl research contact@example.com",
+  "rateLimit": {
+    "requestsPerSec": 3,
+    "retries": 3
+  },
+  "formTypesCollected": [
+    "N-1A",
+    "485BPOS",
+    "497K",
+    "NPORT-P",
+    "N-CEN",
+    "N-CSR"
+  ],
+  "maxFilingsPerFormType": 2,
+  "maxDocumentBytes": 2097152,
+  "primarySources": [
+    "https://www.sec.gov/files/company_tickers_mf.json",
+    "https://data.sec.gov/submissions/CIK{paddedCik}.json",
+    "https://www.sec.gov/Archives/edgar/data/{cik}/{accessionDir}/{primaryDocument}"
+  ],
+  "note": "All values are derived from official SEC filings. No data has been invented or estimated. Fields that could not be retrieved are null with an accompanying warning. Documents truncated at 2 MB include the full source URL.",
+  "funds": [
+    {
+      "ticker": "VFIFX",
+      "expectedName": "Vanguard Target Retirement 2050 Fund",
+      "secName": "VANGUARD CHESTER FUNDS",
+      "cik": "0000752177",
+      "seriesId": "S000012762",
+      "classId": "C000034441",
+      "retrievedAt": "2026-05-04T03:17:58.408Z",
+      "filingsFound": [
+        {
+          "accessionNumber": "0000752177-26-000078",
+          "formType": "NPORT-P",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217726000078/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217726000078/0000752177-26-000078-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217726000078/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 258002,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VFIFX/000075217726000078/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000752177-26-000077",
+          "formType": "NPORT-P",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217726000077/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217726000077/0000752177-26-000077-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217726000077/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 257646,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VFIFX/000075217726000077/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001193125-26-025011",
+          "formType": "497K",
+          "filingDate": "2026-01-28",
+          "primaryDocument": "f43864d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526025011/f43864d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526025011/0001193125-26-025011-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526025011/f43864d1.htm",
+          "downloadedBytes": 137922,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VFIFX/000119312526025011/f43864d1.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001193125-26-025010",
+          "formType": "497K",
+          "filingDate": "2026-01-28",
+          "primaryDocument": "f43862d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526025010/f43862d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526025010/0001193125-26-025010-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526025010/f43862d1.htm",
+          "downloadedBytes": 129173,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VFIFX/000119312526025010/f43862d1.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001193125-26-024962",
+          "formType": "485BPOS",
+          "filingDate": "2026-01-28",
+          "primaryDocument": "f43837d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526024962/f43837d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526024962/0001193125-26-024962-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000119312526024962/f43837d1.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VFIFX/000119312526024962/f43837d1.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/752177/000119312526024962/f43837d1.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000752177-25-000267",
+          "formType": "N-CEN",
+          "filingDate": "2025-12-10",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217725000267/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217725000267/0000752177-25-000267-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000075217725000267/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VFIFX/000075217725000267/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/752177/000075217725000267/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0001104659-25-116918",
+          "formType": "N-CSR",
+          "filingDate": "2025-11-28",
+          "primaryDocument": "tm2527480d7_ncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000110465925116918/tm2527480d7_ncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000110465925116918/0001104659-25-116918-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000110465925116918/tm2527480d7_ncsr.htm",
+          "downloadedBytes": 1314903,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VFIFX/000110465925116918/tm2527480d7_ncsr.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001104659-25-116909",
+          "formType": "N-CSR",
+          "filingDate": "2025-11-28",
+          "primaryDocument": "tm2527480d1_ncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000110465925116909/tm2527480d1_ncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000110465925116909/0001104659-25-116909-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000110465925116909/tm2527480d1_ncsr.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VFIFX/000110465925116909/tm2527480d1_ncsr.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/752177/000110465925116909/tm2527480d1_ncsr.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001683863-25-000459",
+          "formType": "485BPOS",
+          "filingDate": "2025-01-31",
+          "primaryDocument": "f40563d0.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000168386325000459/f40563d0.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000168386325000459/0001683863-25-000459-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000168386325000459/f40563d0.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VFIFX/000168386325000459/f40563d0.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/752177/000168386325000459/f40563d0.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001752724-24-280095",
+          "formType": "N-CEN",
+          "filingDate": "2024-12-12",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/752177/000175272424280095/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/752177/000175272424280095/0001752724-24-280095-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/752177/000175272424280095/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VFIFX/000175272424280095/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/752177/000175272424280095/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        }
+      ],
+      "warnings": [
+        "Registrant has 1 additional archived submission file(s). Only the 1000 most recent filings are searched here.",
+        "Form type N-1A not found in recent submissions. For funds with active registration, amendments are filed as 485BPOS."
+      ],
+      "sourceUrls": [
+        "https://www.sec.gov/files/company_tickers_mf.json",
+        "https://data.sec.gov/submissions/CIK0000752177.json"
+      ]
+    },
+    {
+      "ticker": "FXAIX",
+      "expectedName": "Fidelity 500 Index Fund",
+      "secName": "FIDELITY CONCORD STREET TRUST",
+      "cik": "0000819118",
+      "seriesId": "S000006027",
+      "classId": "C000100045",
+      "retrievedAt": "2026-05-04T03:18:05.269Z",
+      "filingsFound": [
+        {
+          "accessionNumber": "0000819118-26-000078",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "filing11574.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000078/filing11574.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000078/0000819118-26-000078-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000078/filing11574.htm",
+          "downloadedBytes": 87004,
+          "truncated": false,
+          "localPath": "src/data/raw/public/FXAIX/000081911826000078/filing11574.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000819118-26-000077",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "filing11574.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000077/filing11574.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000077/0000819118-26-000077-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000077/filing11574.htm",
+          "downloadedBytes": 85732,
+          "truncated": false,
+          "localPath": "src/data/raw/public/FXAIX/000081911826000077/filing11574.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000035402-26-002661",
+          "formType": "NPORT-P",
+          "filingDate": "2026-04-24",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002661/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002661/0000035402-26-002661-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002661/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FXAIX/000003540226002661/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000003540226002661/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0000035402-26-002636",
+          "formType": "NPORT-P",
+          "filingDate": "2026-04-24",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002636/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002636/0000035402-26-002636-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002636/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FXAIX/000003540226002636/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000003540226002636/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0000819118-26-000072",
+          "formType": "485BPOS",
+          "filingDate": "2026-04-24",
+          "primaryDocument": "filing11589.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000072/filing11589.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000072/0000819118-26-000072-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000072/filing11589.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FXAIX/000081911826000072/filing11589.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000081911826000072/filing11589.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000819118-26-000065",
+          "formType": "N-CSR",
+          "filingDate": "2026-04-22",
+          "primaryDocument": "filing11607.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/0000819118-26-000065-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FXAIX/000081911826000065/filing11607.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000035402-26-000580",
+          "formType": "N-CEN",
+          "filingDate": "2026-02-11",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000580/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000580/0000035402-26-000580-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000580/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FXAIX/000003540226000580/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000003540226000580/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0000819118-26-000018",
+          "formType": "485BPOS",
+          "filingDate": "2026-01-26",
+          "primaryDocument": "filing10702.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000018/filing10702.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000018/0000819118-26-000018-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000018/filing10702.htm",
+          "downloadedBytes": 1072825,
+          "truncated": false,
+          "localPath": "src/data/raw/public/FXAIX/000081911826000018/filing10702.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000819118-26-000015",
+          "formType": "N-CSR",
+          "filingDate": "2026-01-22",
+          "primaryDocument": "filing10674.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000015/filing10674.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000015/0000819118-26-000015-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000015/filing10674.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FXAIX/000081911826000015/filing10674.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000081911826000015/filing10674.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000035402-26-000064",
+          "formType": "N-CEN",
+          "filingDate": "2026-01-13",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000064/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000064/0000035402-26-000064-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000064/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FXAIX/000003540226000064/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000003540226000064/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        }
+      ],
+      "warnings": [
+        "Registrant has 1 additional archived submission file(s). Only the 1001 most recent filings are searched here.",
+        "Form type N-1A not found in recent submissions. For funds with active registration, amendments are filed as 485BPOS."
+      ],
+      "sourceUrls": [
+        "https://www.sec.gov/files/company_tickers_mf.json",
+        "https://data.sec.gov/submissions/CIK0000819118.json"
+      ]
+    },
+    {
+      "ticker": "VBTLX",
+      "expectedName": "Vanguard Total Bond Market Index Fund Admiral Shares",
+      "secName": "VANGUARD BOND INDEX FUNDS",
+      "cik": "0000794105",
+      "seriesId": "S000002564",
+      "classId": "C000007063",
+      "retrievedAt": "2026-05-04T03:18:10.807Z",
+      "filingsFound": [
+        {
+          "accessionNumber": "0000794105-26-000127",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "f44862d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000127/f44862d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000127/0000794105-26-000127-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000127/f44862d1.htm",
+          "downloadedBytes": 101193,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VBTLX/000079410526000127/f44862d1.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000794105-26-000126",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "f44864d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000126/f44864d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000126/0000794105-26-000126-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000126/f44864d1.htm",
+          "downloadedBytes": 123221,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VBTLX/000079410526000126/f44864d1.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000794105-26-000106",
+          "formType": "485BPOS",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "f45031d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000106/f45031d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000106/0000794105-26-000106-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000106/f45031d1.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VBTLX/000079410526000106/f45031d1.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/794105/000079410526000106/f45031d1.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000794105-26-000062",
+          "formType": "N-CEN",
+          "filingDate": "2026-03-12",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000062/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000062/0000794105-26-000062-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000062/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 1681957,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VBTLX/000079410526000062/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001104659-26-021523",
+          "formType": "N-CSR",
+          "filingDate": "2026-02-27",
+          "primaryDocument": "tm263123d9_ncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000110465926021523/tm263123d9_ncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000110465926021523/0001104659-26-021523-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000110465926021523/tm263123d9_ncsr.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VBTLX/000110465926021523/tm263123d9_ncsr.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/794105/000110465926021523/tm263123d9_ncsr.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001104659-26-021506",
+          "formType": "N-CSR",
+          "filingDate": "2026-02-27",
+          "primaryDocument": "tm263123d3_ncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000110465926021506/tm263123d3_ncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000110465926021506/0001104659-26-021506-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000110465926021506/tm263123d3_ncsr.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VBTLX/000110465926021506/tm263123d3_ncsr.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/794105/000110465926021506/tm263123d3_ncsr.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000794105-26-000044",
+          "formType": "NPORT-P",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000044/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000044/0000794105-26-000044-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000044/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VBTLX/000079410526000044/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/794105/000079410526000044/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0000794105-26-000043",
+          "formType": "NPORT-P",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000043/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000043/0000794105-26-000043-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000079410526000043/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VBTLX/000079410526000043/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/794105/000079410526000043/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0001683863-25-004076",
+          "formType": "485BPOS",
+          "filingDate": "2025-04-29",
+          "primaryDocument": "f41957d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000168386325004076/f41957d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000168386325004076/0001683863-25-004076-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000168386325004076/f41957d1.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VBTLX/000168386325004076/f41957d1.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/794105/000168386325004076/f41957d1.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001752724-25-054975",
+          "formType": "N-CEN",
+          "filingDate": "2025-03-13",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000175272425054975/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000175272425054975/0001752724-25-054975-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000175272425054975/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 1543934,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VBTLX/000175272425054975/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": []
+        }
+      ],
+      "warnings": [
+        "Registrant has 1 additional archived submission file(s). Only the 1007 most recent filings are searched here.",
+        "Form type N-1A not found in recent submissions. For funds with active registration, amendments are filed as 485BPOS."
+      ],
+      "sourceUrls": [
+        "https://www.sec.gov/files/company_tickers_mf.json",
+        "https://data.sec.gov/submissions/CIK0000794105.json"
+      ]
+    },
+    {
+      "ticker": "TRBCX",
+      "expectedName": "T. Rowe Price Blue Chip Growth Fund",
+      "secName": "T. Rowe Price Blue Chip Growth Fund, Inc.",
+      "cik": "0000902259",
+      "seriesId": "S000002069",
+      "classId": "C000005424",
+      "retrievedAt": "2026-05-04T03:18:23.800Z",
+      "filingsFound": [
+        {
+          "accessionNumber": "0001099263-26-003168",
+          "formType": "N-CEN",
+          "filingDate": "2026-03-13",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926326003168/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926326003168/0001099263-26-003168-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926326003168/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 288753,
+          "truncated": false,
+          "localPath": "src/data/raw/public/TRBCX/000109926326003168/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001099263-26-002537",
+          "formType": "NPORT-P",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926326002537/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926326002537/0001099263-26-002537-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926326002537/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 1413278,
+          "truncated": false,
+          "localPath": "src/data/raw/public/TRBCX/000109926326002537/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001999371-26-004311",
+          "formType": "497K",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "bcg-497k_030126.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004311/bcg-497k_030126.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004311/0001999371-26-004311-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004311/bcg-497k_030126.htm",
+          "downloadedBytes": 102477,
+          "truncated": false,
+          "localPath": "src/data/raw/public/TRBCX/000199937126004311/bcg-497k_030126.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001999371-26-004097",
+          "formType": "485BPOS",
+          "filingDate": "2026-02-25",
+          "primaryDocument": "bcg-485bpos_022526.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004097/bcg-485bpos_022526.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004097/0001999371-26-004097-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004097/bcg-485bpos_022526.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/TRBCX/000199937126004097/bcg-485bpos_022526.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/902259/000199937126004097/bcg-485bpos_022526.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001193125-26-062874",
+          "formType": "N-CSR",
+          "filingDate": "2026-02-23",
+          "primaryDocument": "d577046dncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000119312526062874/d577046dncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000119312526062874/0001193125-26-062874-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000119312526062874/d577046dncsr.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/TRBCX/000119312526062874/d577046dncsr.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/902259/000119312526062874/d577046dncsr.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001099263-25-003630",
+          "formType": "NPORT-P",
+          "filingDate": "2025-11-25",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926325003630/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926325003630/0001099263-25-003630-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926325003630/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 1416328,
+          "truncated": false,
+          "localPath": "src/data/raw/public/TRBCX/000109926325003630/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000902259-25-000010",
+          "formType": "N-CEN",
+          "filingDate": "2025-03-14",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000090225925000010/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000090225925000010/0000902259-25-000010-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000090225925000010/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 278570,
+          "truncated": false,
+          "localPath": "src/data/raw/public/TRBCX/000090225925000010/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001741773-25-000665",
+          "formType": "497K",
+          "filingDate": "2025-02-26",
+          "primaryDocument": "c497k.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000174177325000665/c497k.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000174177325000665/0001741773-25-000665-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000174177325000665/c497k.htm",
+          "downloadedBytes": 215084,
+          "truncated": false,
+          "localPath": "src/data/raw/public/TRBCX/000174177325000665/c497k.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001741773-25-000623",
+          "formType": "485BPOS",
+          "filingDate": "2025-02-25",
+          "primaryDocument": "c485bpos.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000174177325000623/c485bpos.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000174177325000623/0001741773-25-000623-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000174177325000623/c485bpos.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/TRBCX/000174177325000623/c485bpos.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/902259/000174177325000623/c485bpos.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001193125-25-031529",
+          "formType": "N-CSR",
+          "filingDate": "2025-02-21",
+          "primaryDocument": "d927665dncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000119312525031529/d927665dncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000119312525031529/0001193125-25-031529-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000119312525031529/d927665dncsr.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/TRBCX/000119312525031529/d927665dncsr.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/902259/000119312525031529/d927665dncsr.htm"
+          ]
+        }
+      ],
+      "warnings": [
+        "Form type N-1A not found in recent submissions. For funds with active registration, amendments are filed as 485BPOS."
+      ],
+      "sourceUrls": [
+        "https://www.sec.gov/files/company_tickers_mf.json",
+        "https://data.sec.gov/submissions/CIK0000902259.json"
+      ]
+    },
+    {
+      "ticker": "AGTHX",
+      "expectedName": "American Funds Growth Fund of America Class A",
+      "secName": "GROWTH FUND OF AMERICA",
+      "cik": "0000044201",
+      "seriesId": "S000009228",
+      "classId": "C000025064",
+      "retrievedAt": "2026-05-04T03:18:28.966Z",
+      "filingsFound": [
+        {
+          "accessionNumber": "0001193125-26-182055",
+          "formType": "NPORT-P",
+          "filingDate": "2026-04-27",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312526182055/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312526182055/0001193125-26-182055-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312526182055/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/AGTHX/000119312526182055/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/44201/000119312526182055/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0001193125-26-027715",
+          "formType": "NPORT-P",
+          "filingDate": "2026-01-29",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312526027715/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312526027715/0001193125-26-027715-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312526027715/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/AGTHX/000119312526027715/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/44201/000119312526027715/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0001193125-25-282335",
+          "formType": "N-CEN",
+          "filingDate": "2025-11-14",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525282335/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525282335/0001193125-25-282335-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525282335/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 241975,
+          "truncated": false,
+          "localPath": "src/data/raw/public/AGTHX/000119312525282335/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000051931-25-001203",
+          "formType": "497K",
+          "filingDate": "2025-10-31",
+          "primaryDocument": "gfa497k.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001203/gfa497k.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001203/0000051931-25-001203-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001203/gfa497k.htm",
+          "downloadedBytes": 162380,
+          "truncated": false,
+          "localPath": "src/data/raw/public/AGTHX/000005193125001203/gfa497k.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001193125-25-260203",
+          "formType": "N-CSR",
+          "filingDate": "2025-10-31",
+          "primaryDocument": "8de157439e338b7.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525260203/8de157439e338b7.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525260203/0001193125-25-260203-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525260203/8de157439e338b7.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/AGTHX/000119312525260203/8de157439e338b7.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/44201/000119312525260203/8de157439e338b7.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000051931-25-001201",
+          "formType": "485BPOS",
+          "filingDate": "2025-10-31",
+          "primaryDocument": "ck0000044201-20251031.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001201/ck0000044201-20251031.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001201/0000051931-25-001201-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193125001201/ck0000044201-20251031.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/AGTHX/000005193125001201/ck0000044201-20251031.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/44201/000005193125001201/ck0000044201-20251031.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001145549-24-069034",
+          "formType": "N-CEN",
+          "filingDate": "2024-11-14",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000114554924069034/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000114554924069034/0001145549-24-069034-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000114554924069034/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 222036,
+          "truncated": false,
+          "localPath": "src/data/raw/public/AGTHX/000114554924069034/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000051931-24-000997",
+          "formType": "497K",
+          "filingDate": "2024-10-31",
+          "primaryDocument": "gfa497k.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193124000997/gfa497k.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193124000997/0000051931-24-000997-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193124000997/gfa497k.htm",
+          "downloadedBytes": 163404,
+          "truncated": false,
+          "localPath": "src/data/raw/public/AGTHX/000005193124000997/gfa497k.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000051931-24-000996",
+          "formType": "485BPOS",
+          "filingDate": "2024-10-31",
+          "primaryDocument": "ck0000044201-20240831.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193124000996/ck0000044201-20240831.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193124000996/0000051931-24-000996-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000005193124000996/ck0000044201-20240831.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/AGTHX/000005193124000996/ck0000044201-20240831.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/44201/000005193124000996/ck0000044201-20240831.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000898430-24-000856",
+          "formType": "N-CSR",
+          "filingDate": "2024-10-31",
+          "primaryDocument": "8dcf837e910d12d.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000089843024000856/8dcf837e910d12d.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000089843024000856/0000898430-24-000856-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000089843024000856/8dcf837e910d12d.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/AGTHX/000089843024000856/8dcf837e910d12d.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/44201/000089843024000856/8dcf837e910d12d.htm"
+          ]
+        }
+      ],
+      "warnings": [
+        "Form type N-1A not found in recent submissions. For funds with active registration, amendments are filed as 485BPOS."
+      ],
+      "sourceUrls": [
+        "https://www.sec.gov/files/company_tickers_mf.json",
+        "https://data.sec.gov/submissions/CIK0000044201.json"
+      ]
+    },
+    {
+      "ticker": "SWPPX",
+      "expectedName": "Schwab S&P 500 Index Fund",
+      "secName": "SCHWAB CAPITAL TRUST",
+      "cik": "0000904333",
+      "seriesId": "S000005911",
+      "classId": "C000016166",
+      "retrievedAt": "2026-05-04T03:18:34.440Z",
+      "filingsFound": [
+        {
+          "accessionNumber": "0001193125-26-201275",
+          "formType": "N-CSR",
+          "filingDate": "2026-05-01",
+          "primaryDocument": "d48352dncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000119312526201275/d48352dncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000119312526201275/0001193125-26-201275-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000119312526201275/d48352dncsr.htm",
+          "downloadedBytes": 1196056,
+          "truncated": false,
+          "localPath": "src/data/raw/public/SWPPX/000119312526201275/d48352dncsr.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000884546-26-000166",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "c497k.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000166/c497k.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000166/0000884546-26-000166-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000166/c497k.htm",
+          "downloadedBytes": 113604,
+          "truncated": false,
+          "localPath": "src/data/raw/public/SWPPX/000088454626000166/c497k.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000884546-26-000165",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "c497k.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000165/c497k.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000165/0000884546-26-000165-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000165/c497k.htm",
+          "downloadedBytes": 111214,
+          "truncated": false,
+          "localPath": "src/data/raw/public/SWPPX/000088454626000165/c497k.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000884546-26-000149",
+          "formType": "485BPOS",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "c485bpos.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000149/c485bpos.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000149/0000884546-26-000149-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000149/c485bpos.htm",
+          "downloadedBytes": 1911691,
+          "truncated": false,
+          "localPath": "src/data/raw/public/SWPPX/000088454626000149/c485bpos.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001410368-26-039960",
+          "formType": "NPORT-P",
+          "filingDate": "2026-04-24",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826039960/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826039960/0001410368-26-039960-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826039960/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/SWPPX/000141036826039960/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/904333/000141036826039960/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0001410368-26-030070",
+          "formType": "NPORT-P",
+          "filingDate": "2026-03-25",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826030070/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826030070/0001410368-26-030070-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826030070/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/SWPPX/000141036826030070/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/904333/000141036826030070/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0001410368-26-024977",
+          "formType": "N-CEN",
+          "filingDate": "2026-03-13",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826024977/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826024977/0001410368-26-024977-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826024977/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 574339,
+          "truncated": false,
+          "localPath": "src/data/raw/public/SWPPX/000141036826024977/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0001193125-26-088519",
+          "formType": "N-CSR",
+          "filingDate": "2026-03-03",
+          "primaryDocument": "d36158dncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000119312526088519/d36158dncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000119312526088519/0001193125-26-088519-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000119312526088519/d36158dncsr.htm",
+          "downloadedBytes": 1402682,
+          "truncated": false,
+          "localPath": "src/data/raw/public/SWPPX/000119312526088519/d36158dncsr.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000884546-26-000041",
+          "formType": "485BPOS",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "c485bpos.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000041/c485bpos.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000041/0000884546-26-000041-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000041/c485bpos.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/SWPPX/000088454626000041/c485bpos.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/904333/000088454626000041/c485bpos.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001410368-26-000547",
+          "formType": "N-CEN",
+          "filingDate": "2026-01-12",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826000547/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826000547/0001410368-26-000547-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000141036826000547/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/SWPPX/000141036826000547/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/904333/000141036826000547/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        }
+      ],
+      "warnings": [
+        "Registrant has 2 additional archived submission file(s). Only the 1001 most recent filings are searched here.",
+        "Form type N-1A not found in recent submissions. For funds with active registration, amendments are filed as 485BPOS."
+      ],
+      "sourceUrls": [
+        "https://www.sec.gov/files/company_tickers_mf.json",
+        "https://data.sec.gov/submissions/CIK0000904333.json"
+      ]
+    },
+    {
+      "ticker": "VSMAX",
+      "expectedName": "Vanguard Small-Cap Index Fund Admiral Shares",
+      "secName": "VANGUARD INDEX FUNDS",
+      "cik": "0000036405",
+      "seriesId": "S000002845",
+      "classId": "C000007796",
+      "retrievedAt": "2026-05-04T03:18:41.211Z",
+      "filingsFound": [
+        {
+          "accessionNumber": "0000036405-26-000228",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "f44892d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000228/f44892d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000228/0000036405-26-000228-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000228/f44892d1.htm",
+          "downloadedBytes": 115144,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VSMAX/000003640526000228/f44892d1.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000036405-26-000227",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "f44893d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000227/f44893d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000227/0000036405-26-000227-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000227/f44893d1.htm",
+          "downloadedBytes": 108319,
+          "truncated": false,
+          "localPath": "src/data/raw/public/VSMAX/000003640526000227/f44893d1.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000036405-26-000181",
+          "formType": "485BPOS",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "f45032d1.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000181/f45032d1.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000181/0000036405-26-000181-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000181/f45032d1.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VSMAX/000003640526000181/f45032d1.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000003640526000181/f45032d1.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000036405-26-000103",
+          "formType": "N-CEN",
+          "filingDate": "2026-03-12",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000103/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000103/0000036405-26-000103-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000103/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VSMAX/000003640526000103/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000003640526000103/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0001104659-26-021519",
+          "formType": "N-CSR",
+          "filingDate": "2026-02-27",
+          "primaryDocument": "tm263123d8_ncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021519/tm263123d8_ncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021519/0001104659-26-021519-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021519/tm263123d8_ncsr.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VSMAX/000110465926021519/tm263123d8_ncsr.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000110465926021519/tm263123d8_ncsr.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001104659-26-021502",
+          "formType": "N-CSR",
+          "filingDate": "2026-02-27",
+          "primaryDocument": "tm263123d1_ncsr.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021502/tm263123d1_ncsr.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021502/0001104659-26-021502-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021502/tm263123d1_ncsr.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VSMAX/000110465926021502/tm263123d1_ncsr.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000110465926021502/tm263123d1_ncsr.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000036405-26-000074",
+          "formType": "NPORT-P",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000074/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000074/0000036405-26-000074-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000074/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VSMAX/000003640526000074/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000003640526000074/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0000036405-26-000073",
+          "formType": "NPORT-P",
+          "filingDate": "2026-02-26",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000073/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000073/0000036405-26-000073-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000003640526000073/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VSMAX/000003640526000073/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000003640526000073/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0001683863-25-004078",
+          "formType": "485BPOS",
+          "filingDate": "2025-04-29",
+          "primaryDocument": "f41805d0.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000168386325004078/f41805d0.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000168386325004078/0001683863-25-004078-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000168386325004078/f41805d0.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VSMAX/000168386325004078/f41805d0.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000168386325004078/f41805d0.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0001752724-25-054972",
+          "formType": "N-CEN",
+          "filingDate": "2025-03-13",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000175272425054972/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000175272425054972/0001752724-25-054972-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000175272425054972/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/VSMAX/000175272425054972/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000175272425054972/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        }
+      ],
+      "warnings": [
+        "Registrant has 1 additional archived submission file(s). Only the 1001 most recent filings are searched here.",
+        "Form type N-1A not found in recent submissions. For funds with active registration, amendments are filed as 485BPOS."
+      ],
+      "sourceUrls": [
+        "https://www.sec.gov/files/company_tickers_mf.json",
+        "https://data.sec.gov/submissions/CIK0000036405.json"
+      ]
+    },
+    {
+      "ticker": "FSPSX",
+      "expectedName": "Fidelity International Index Fund",
+      "secName": "FIDELITY CONCORD STREET TRUST",
+      "cik": "0000819118",
+      "seriesId": "S000006023",
+      "classId": "C000103357",
+      "retrievedAt": "2026-05-04T03:18:45.447Z",
+      "filingsFound": [
+        {
+          "accessionNumber": "0000819118-26-000078",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "filing11574.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000078/filing11574.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000078/0000819118-26-000078-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000078/filing11574.htm",
+          "downloadedBytes": 87004,
+          "truncated": false,
+          "localPath": "src/data/raw/public/FSPSX/000081911826000078/filing11574.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000819118-26-000077",
+          "formType": "497K",
+          "filingDate": "2026-04-28",
+          "primaryDocument": "filing11574.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000077/filing11574.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000077/0000819118-26-000077-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000077/filing11574.htm",
+          "downloadedBytes": 85732,
+          "truncated": false,
+          "localPath": "src/data/raw/public/FSPSX/000081911826000077/filing11574.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000035402-26-002661",
+          "formType": "NPORT-P",
+          "filingDate": "2026-04-24",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002661/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002661/0000035402-26-002661-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002661/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FSPSX/000003540226002661/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000003540226002661/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0000035402-26-002636",
+          "formType": "NPORT-P",
+          "filingDate": "2026-04-24",
+          "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002636/xslFormNPORT-P_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002636/0000035402-26-002636-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226002636/xslFormNPORT-P_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FSPSX/000003540226002636/xslFormNPORT-P_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000003540226002636/xslFormNPORT-P_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0000819118-26-000072",
+          "formType": "485BPOS",
+          "filingDate": "2026-04-24",
+          "primaryDocument": "filing11589.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000072/filing11589.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000072/0000819118-26-000072-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000072/filing11589.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FSPSX/000081911826000072/filing11589.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000081911826000072/filing11589.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000819118-26-000065",
+          "formType": "N-CSR",
+          "filingDate": "2026-04-22",
+          "primaryDocument": "filing11607.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/0000819118-26-000065-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FSPSX/000081911826000065/filing11607.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000081911826000065/filing11607.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000035402-26-000580",
+          "formType": "N-CEN",
+          "filingDate": "2026-02-11",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000580/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000580/0000035402-26-000580-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000580/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FSPSX/000003540226000580/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000003540226000580/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        },
+        {
+          "accessionNumber": "0000819118-26-000018",
+          "formType": "485BPOS",
+          "filingDate": "2026-01-26",
+          "primaryDocument": "filing10702.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000018/filing10702.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000018/0000819118-26-000018-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000018/filing10702.htm",
+          "downloadedBytes": 1072825,
+          "truncated": false,
+          "localPath": "src/data/raw/public/FSPSX/000081911826000018/filing10702.htm",
+          "warnings": []
+        },
+        {
+          "accessionNumber": "0000819118-26-000015",
+          "formType": "N-CSR",
+          "filingDate": "2026-01-22",
+          "primaryDocument": "filing10674.htm",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000015/filing10674.htm",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000015/0000819118-26-000015-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000081911826000015/filing10674.htm",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FSPSX/000081911826000015/filing10674.htm",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000081911826000015/filing10674.htm"
+          ]
+        },
+        {
+          "accessionNumber": "0000035402-26-000064",
+          "formType": "N-CEN",
+          "filingDate": "2026-01-13",
+          "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+          "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000064/xslFormN-CEN_X01/primary_doc.xml",
+          "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000064/0000035402-26-000064-index.htm",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/819118/000003540226000064/xslFormN-CEN_X01/primary_doc.xml",
+          "downloadedBytes": 2097152,
+          "truncated": true,
+          "localPath": "src/data/raw/public/FSPSX/000003540226000064/xslFormN-CEN_X01/primary_doc.xml",
+          "warnings": [
+            "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/819118/000003540226000064/xslFormN-CEN_X01/primary_doc.xml"
+          ]
+        }
+      ],
+      "warnings": [
+        "Registrant has 1 additional archived submission file(s). Only the 1001 most recent filings are searched here.",
+        "Form type N-1A not found in recent submissions. For funds with active registration, amendments are filed as 485BPOS."
+      ],
+      "sourceUrls": [
+        "https://www.sec.gov/files/company_tickers_mf.json",
+        "https://data.sec.gov/submissions/CIK0000819118.json"
+      ]
+    }
+  ]
+}

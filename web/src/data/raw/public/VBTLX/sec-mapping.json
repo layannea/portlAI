@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://www.sec.gov/files/company_tickers_mf.json",
+  "retrievedAt": "2026-05-04T03:18:10.807Z",
+  "ticker": "VBTLX",
+  "expectedName": "Vanguard Total Bond Market Index Fund Admiral Shares",
+  "secEntry": {
+    "cik": 794105,
+    "seriesId": "S000002564",
+    "classId": "C000007063",
+    "symbol": "VBTLX"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://data.sec.gov/submissions/CIK0000036405.json",
+  "retrievedAt": "2026-05-04T03:18:41.405Z",
+  "cik": "0000036405",
+  "registrantName": "VANGUARD INDEX FUNDS",
+  "recentFilingsScanned": 1001,
+  "archivedFilesNotScanned": [
+    {
+      "name": "CIK0000036405-submissions-001.json",
+      "filingCount": 1415,
+      "filingFrom": "1994-02-02",
+      "filingTo": "2018-02-14"
+    }
+  ],
+  "note": "Only 'recent' filings are included. Older filings are linked in archivedFilesNotScanned."
+}

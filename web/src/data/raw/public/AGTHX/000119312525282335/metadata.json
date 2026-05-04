@@ -1,0 +1,13 @@
+{
+  "accessionNumber": "0001193125-25-282335",
+  "formType": "N-CEN",
+  "filingDate": "2025-11-14",
+  "primaryDocument": "xslFormN-CEN_X01/primary_doc.xml",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525282335/xslFormN-CEN_X01/primary_doc.xml",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525282335/0001193125-25-282335-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525282335/xslFormN-CEN_X01/primary_doc.xml",
+  "downloadedBytes": 241975,
+  "truncated": false,
+  "localPath": "src/data/raw/public/AGTHX/000119312525282335/xslFormN-CEN_X01/primary_doc.xml",
+  "warnings": []
+}

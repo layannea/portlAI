@@ -1,0 +1,15 @@
+{
+  "accessionNumber": "0001193125-25-260203",
+  "formType": "N-CSR",
+  "filingDate": "2025-10-31",
+  "primaryDocument": "8de157439e338b7.htm",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525260203/8de157439e338b7.htm",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525260203/0001193125-25-260203-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/44201/000119312525260203/8de157439e338b7.htm",
+  "downloadedBytes": 2097152,
+  "truncated": true,
+  "localPath": "src/data/raw/public/AGTHX/000119312525260203/8de157439e338b7.htm",
+  "warnings": [
+    "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/44201/000119312525260203/8de157439e338b7.htm"
+  ]
+}

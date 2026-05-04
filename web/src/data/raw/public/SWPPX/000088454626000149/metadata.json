@@ -1,0 +1,13 @@
+{
+  "accessionNumber": "0000884546-26-000149",
+  "formType": "485BPOS",
+  "filingDate": "2026-04-28",
+  "primaryDocument": "c485bpos.htm",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000149/c485bpos.htm",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000149/0000884546-26-000149-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/904333/000088454626000149/c485bpos.htm",
+  "downloadedBytes": 1911691,
+  "truncated": false,
+  "localPath": "src/data/raw/public/SWPPX/000088454626000149/c485bpos.htm",
+  "warnings": []
+}

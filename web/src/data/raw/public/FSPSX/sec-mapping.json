@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://www.sec.gov/files/company_tickers_mf.json",
+  "retrievedAt": "2026-05-04T03:18:45.447Z",
+  "ticker": "FSPSX",
+  "expectedName": "Fidelity International Index Fund",
+  "secEntry": {
+    "cik": 819118,
+    "seriesId": "S000006023",
+    "classId": "C000103357",
+    "symbol": "FSPSX"
+  }
+}

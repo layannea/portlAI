@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "https://www.sec.gov/files/company_tickers_mf.json",
+  "retrievedAt": "2026-05-04T03:17:58.408Z",
+  "ticker": "VFIFX",
+  "expectedName": "Vanguard Target Retirement 2050 Fund",
+  "secEntry": {
+    "cik": 752177,
+    "seriesId": "S000012762",
+    "classId": "C000034441",
+    "symbol": "VFIFX"
+  }
+}

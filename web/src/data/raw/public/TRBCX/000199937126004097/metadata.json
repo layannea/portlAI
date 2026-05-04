@@ -1,0 +1,15 @@
+{
+  "accessionNumber": "0001999371-26-004097",
+  "formType": "485BPOS",
+  "filingDate": "2026-02-25",
+  "primaryDocument": "bcg-485bpos_022526.htm",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004097/bcg-485bpos_022526.htm",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004097/0001999371-26-004097-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000199937126004097/bcg-485bpos_022526.htm",
+  "downloadedBytes": 2097152,
+  "truncated": true,
+  "localPath": "src/data/raw/public/TRBCX/000199937126004097/bcg-485bpos_022526.htm",
+  "warnings": [
+    "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/902259/000199937126004097/bcg-485bpos_022526.htm"
+  ]
+}

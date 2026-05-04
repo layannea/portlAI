@@ -1,0 +1,15 @@
+{
+  "accessionNumber": "0001683863-25-004076",
+  "formType": "485BPOS",
+  "filingDate": "2025-04-29",
+  "primaryDocument": "f41957d1.htm",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/794105/000168386325004076/f41957d1.htm",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/794105/000168386325004076/0001683863-25-004076-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/794105/000168386325004076/f41957d1.htm",
+  "downloadedBytes": 2097152,
+  "truncated": true,
+  "localPath": "src/data/raw/public/VBTLX/000168386325004076/f41957d1.htm",
+  "warnings": [
+    "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/794105/000168386325004076/f41957d1.htm"
+  ]
+}

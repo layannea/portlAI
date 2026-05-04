@@ -1,0 +1,13 @@
+{
+  "accessionNumber": "0001099263-25-003630",
+  "formType": "NPORT-P",
+  "filingDate": "2025-11-25",
+  "primaryDocument": "xslFormNPORT-P_X01/primary_doc.xml",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926325003630/xslFormNPORT-P_X01/primary_doc.xml",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926325003630/0001099263-25-003630-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/902259/000109926325003630/xslFormNPORT-P_X01/primary_doc.xml",
+  "downloadedBytes": 1416328,
+  "truncated": false,
+  "localPath": "src/data/raw/public/TRBCX/000109926325003630/xslFormNPORT-P_X01/primary_doc.xml",
+  "warnings": []
+}

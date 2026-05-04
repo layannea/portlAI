@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://data.sec.gov/submissions/CIK0000819118.json",
+  "retrievedAt": "2026-05-04T03:18:05.633Z",
+  "cik": "0000819118",
+  "registrantName": "FIDELITY CONCORD STREET TRUST",
+  "recentFilingsScanned": 1001,
+  "archivedFilesNotScanned": [
+    {
+      "name": "CIK0000819118-submissions-001.json",
+      "filingCount": 1144,
+      "filingFrom": "1994-02-24",
+      "filingTo": "2020-06-28"
+    }
+  ],
+  "note": "Only 'recent' filings are included. Older filings are linked in archivedFilesNotScanned."
+}

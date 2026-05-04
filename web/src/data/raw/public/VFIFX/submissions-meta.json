@@ -1,0 +1,16 @@
+{
+  "sourceUrl": "https://data.sec.gov/submissions/CIK0000752177.json",
+  "retrievedAt": "2026-05-04T03:17:58.720Z",
+  "cik": "0000752177",
+  "registrantName": "VANGUARD CHESTER FUNDS",
+  "recentFilingsScanned": 1000,
+  "archivedFilesNotScanned": [
+    {
+      "name": "CIK0000752177-submissions-001.json",
+      "filingCount": 1089,
+      "filingFrom": "1994-02-14",
+      "filingTo": "2017-11-15"
+    }
+  ],
+  "note": "Only 'recent' filings are included. Older filings are linked in archivedFilesNotScanned."
+}

@@ -1,0 +1,15 @@
+{
+  "accessionNumber": "0001104659-26-021519",
+  "formType": "N-CSR",
+  "filingDate": "2026-02-27",
+  "primaryDocument": "tm263123d8_ncsr.htm",
+  "primaryDocUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021519/tm263123d8_ncsr.htm",
+  "filingIndexUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021519/0001104659-26-021519-index.htm",
+  "sourceUrl": "https://www.sec.gov/Archives/edgar/data/36405/000110465926021519/tm263123d8_ncsr.htm",
+  "downloadedBytes": 2097152,
+  "truncated": true,
+  "localPath": "src/data/raw/public/VSMAX/000110465926021519/tm263123d8_ncsr.htm",
+  "warnings": [
+    "Document truncated at 2097152 bytes. Full document available at https://www.sec.gov/Archives/edgar/data/36405/000110465926021519/tm263123d8_ncsr.htm"
+  ]
+}
